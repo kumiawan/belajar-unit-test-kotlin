@@ -1,10 +1,6 @@
 fun main(args: Array<String>) {
     // Mencetak "Hello World!" ke konsol saat program dijalankan.
     println("Hello World!")
-
-    // Mencetak teks "Program arguments:" diikuti oleh argumen program (jika ada).
-    // Argumen digabungkan menjadi satu string dengan tanda koma sebagai pemisah.
-    println("Program arguments: ${args.joinToString()}")
 }
 
 class Sample() {
